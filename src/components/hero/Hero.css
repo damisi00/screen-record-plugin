@@ -1,0 +1,144 @@
+.hero{
+    padding: 6.69rem 0 4.75rem;
+    background-color: #FFF;
+}
+
+.hero-container{
+    /* padding-left: 6.25rem; */
+    margin-left: auto;
+    margin-right: 3.22rem;
+    width: 89.48%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text{
+    width: 34.3rem;
+}
+
+.hero-text h1{
+    color: #141414;
+    font-family: 'Sora', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    /* padding-right: 5rem; */
+}
+
+.hero-text p{
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    padding-bottom: 3rem;
+}
+
+.hero-text button{
+    padding: 1.38rem 1.5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border: none;
+    background-color: #120B48;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text button img{
+    margin-left: .75rem;
+}
+
+.hero-imgs{
+    /* width: 45rem; */
+    /* max-width: 49%; */
+    position: relative;
+}
+
+
+.img-grid{
+    display: grid;
+    
+    gap: .88rem;
+    grid-template-areas: 
+    'a b'
+    'c b'
+    ;
+    padding-left: .84rem;
+}
+
+.img-grid .img-wrap{
+    border-radius: .5rem;
+    
+}
+
+.img-grid .img-wrap img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-grid .a{
+    grid-area: a;
+    /* width: 23rem; */
+}
+
+.img-grid .b{
+    grid-area: b;
+    /* width: 19rem; */
+}
+
+.img-grid .c{
+    grid-area: c;
+    /* width: 23rem; */
+}
+
+.tvector{
+    position: absolute;
+    top: -3.62rem;
+    right: -3.01rem;
+}
+
+.bvector{
+    position: absolute;
+}
+
+@media (max-width: 1025px) {
+    
+    
+    .hero-text h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 769px){
+    .hero-container{
+        margin: 0 auto;
+    }
+    .hero-text{
+        padding-top: 1.5rem;
+        width: fit-content;
+    }
+    .hero-text h1{
+        font-size: 2rem;
+    }
+    
+    .hero-text p, .hero-text button{
+        font-size: 1rem;
+    }
+
+    .hero-text button{
+        padding: 1rem;
+    }
+
+    .hero-container{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 620px){
+    .hero-container{
+       margin: 0 auto;
+    }
+}

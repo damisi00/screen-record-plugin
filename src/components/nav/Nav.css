@@ -1,0 +1,46 @@
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75rem 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    color: #000;
+    padding: 0.625rem 1.3125rem 0.625rem 1.25rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li:first-of-type{
+    padding-right: 2.44rem;
+}
+
+nav button{
+    padding: 0.75rem 0.625rem;
+    border-radius: .3125rem;
+    border: none;
+    color: #120B48;
+    font-family: 'Sora', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+nav button:focus-within{
+    border: 1px solid #120B48;
+}
+
+@media (max-width: 769px){
+    
+    nav button{
+        font-size: 1rem;
+    }
+}

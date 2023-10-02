@@ -1,0 +1,79 @@
+.how-it-works{
+    padding: 6.44rem 0 7.68rem;
+    background-color: #fff;
+}
+
+.how-it-works h2{
+    color: #141414;
+    font-family: 'Sora', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.how-it-works .wrapper{
+    padding-top: 3.69rem;
+    display: flex;
+    width: 86.111%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.step .card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22.375rem;
+}
+
+.step-icon{
+    width: 4.25rem;
+    height: 4.1875rem;
+}
+
+.step .card h4{
+    color: #1B233D;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding: 2rem 0 1rem;
+}
+
+.step .card p{
+    color: #616163;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1.75rem;
+}
+
+@media (max-width: 769px){
+    .how-it-works h2{
+        font-size: 1.5rem;
+    }
+
+    .step-icon {
+        width: 3.25rem;
+        height: 3.1875rem;
+    }
+
+    .step .card h4{
+        font-size: 1.25rem;
+    }
+
+    .step .card p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px){
+    .step .card{
+        width:inherit;
+    }
+
+    .step, .step-img, .step-img img{
+        width: inherit;
+    }
+}
